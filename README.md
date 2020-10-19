@@ -1,1 +1,1 @@
-# app.py
+# Foxy's Encouragement Bot
