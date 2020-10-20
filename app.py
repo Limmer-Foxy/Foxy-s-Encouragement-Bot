@@ -27,6 +27,22 @@ while True:
       feelings_list.append("depressed")
       encouragement_list.append("your family and friends are there for you! Tomorrow will be a better day!")
       counter +=1
+    if each_word == "sleepy":
+      feelings_list.append("sleepy")
+      encouragement_list.append("you can do it! However, do have ample rest and do not burn the midnight oil")
+      counter +=1
+    if each_word == "angry":
+      feelings_list.append("angry")
+      encouragement_list.append("we all get angry at times! Take in 10 deep breaths slowly and feel yourself relax. Once you have calmed down, you can think and talk nicely with the person you are angry at")
+      counter +=1
+    if each_word == "upset":
+      feelings_list.append("upset")
+      encouragement_list.append("you are doing great! No matter what happens, stay optimistic")
+      counter +=1
+    if each_word == "disappointed":
+      feelings_list.append("disappointed")
+      encouragement_list.append("you have tried your best. No matter what the result is, you have done what you could. What you can do now is to work harder and try harder the next time and use this as a learning experience")
+      counter +=1
 
   if counter == 0:
     
