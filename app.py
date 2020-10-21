@@ -51,6 +51,10 @@ while True:
       feelings_list.append("annoyed")
       encouragement_list.append("we all make mistakes! No matter what happens, calm down and think carefully on your actions")
       counter +=1
+    if each_word == "confused":
+      feelings_list.append("confused")
+      encouragement_list.append("you can ask for help if you are confused")
+      counter +=1
 
   if counter == 0:
     
