@@ -43,6 +43,14 @@ while True:
       feelings_list.append("disappointed")
       encouragement_list.append("you have tried your best. No matter what the result is, you have done what you could. What you can do now is to work harder and try harder the next time and use this as a learning experience")
       counter +=1
+    if each_word == "furious":
+      feelings_list.append("furious")
+      encouragement_list.append("we all make mistakes! Take a deep breath slowly and feel yourself relex. Once you have calmed down, you can think and talk nicely with the person or problem you are upset with")
+      counter +=1
+    if each_word == "annoyed":
+      feelings_list.append("annoyed")
+      encouragement_list.append("we all make mistakes! No matter what happens, calm down and think carefully on your actions")
+      counter +=1
 
   if counter == 0:
     
