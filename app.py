@@ -55,6 +55,22 @@ while True:
       feelings_list.append("confused")
       encouragement_list.append("you can ask for help if you are confused")
       counter +=1
+    if each_word == "fabulous":
+      feelings_list.append("fabulous")
+      encouragement_list.append("you are doing great! Remember to keep smiling")
+      counter +=1
+    if each_word == "optimistic":
+      feelings_list.append("optimistic")
+      encouragement_list.append("you should continue being optimistic! Remember to keep smiling")
+      counter +=1
+    if each_word == "excited":
+      feelings_list.append("excited")
+      encouragement_list.append("you are doing great! Remember to keep smiling")
+      counter +=1
+    if each_word == "lonely":
+      feelings_list.append("lonely")
+      encouragement_list.append("you can find someone to talk to")
+      counter +=1
 
   if counter == 0:
     
