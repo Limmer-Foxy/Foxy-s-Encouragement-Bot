@@ -65,11 +65,19 @@ while True:
       counter +=1
     if each_word == "excited":
       feelings_list.append("excited")
-      encouragement_list.append("you are doing great! Remember to keep smiling")
+      encouragement_list.append("you are doing fantastic! Remember to continue smiling")
       counter +=1
     if each_word == "lonely":
       feelings_list.append("lonely")
       encouragement_list.append("you can find someone to talk to")
+      counter +=1
+    if each_word == "elated":
+      feelings_list.append("elated")
+      encouragement_list.append("you are doing fine! Remember to keep smiling")
+      counter +=1
+    if each_word == "hateful":
+      feelings_list.append("hateful")
+      encouragement_list.append("you should not hold grudges against anyone! Remember to think out your actions carefully")
       counter +=1
 
   if counter == 0:
